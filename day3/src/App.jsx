@@ -5,11 +5,12 @@ import Func_comp from './Func_comp.jsx';
 import ProductDisplay from './ProductDisplay .jsx';
 import Props_demo from './Props_demo.jsx';
 import Button from './Button.jsx';
+import Counter from './Counter.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Demo />
+      {/* <Demo />
       <Func_comp name= " thara" isLoggedIn="true"/>
       <ProductDisplay/>
       <Props_demo name="tharani" length={10}/>
@@ -18,7 +19,8 @@ function App() {
 
       <Button label="Click Me" onClick={() => alert('Button Clicked!')} />
       <Button label="Submit" onClick={() => alert('Form Submitted!')} />
-      <Button label="Tharani" onClick={() => alert('Tharani go ahead')} />
+      <Button label="Tharani" onClick={() => alert('Tharani go ahead')} /> */}
+      <Counter />
     </div>
   );
 }
