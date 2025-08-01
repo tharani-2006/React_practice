@@ -15,8 +15,10 @@ function App() {
       <Props_demo name="tharani" length={10}/>
       <Props_demo name="madam" length={20}/>
       <Props_demo name="Sister" length={30}/>
+
       <Button label="Click Me" onClick={() => alert('Button Clicked!')} />
       <Button label="Submit" onClick={() => alert('Form Submitted!')} />
+      <Button label="Tharani" onClick={() => alert('Tharani go ahead')} />
     </div>
   );
 }
