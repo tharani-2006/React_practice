@@ -8,6 +8,8 @@ const ProductDisplay  = () => {
         <h2>Name : {pro_name}</h2>
         <h3>Price : {pro_price}</h3>
         <h3>done</h3>
+
+    
       
     </div>
   )
