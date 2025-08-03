@@ -6,6 +6,9 @@ import ProductDisplay from './ProductDisplay .jsx';
 import Props_demo from './Props_demo.jsx';
 import Button from './Button.jsx';
 import Counter from './Counter.jsx';
+import Handling from './Handling.jsx';
+import ConditionalRendering from './ConditionalRendering.jsx';
+import Toggle from './Toggle.jsx';
 
 function App() {
   return (
@@ -19,8 +22,11 @@ function App() {
 
       <Button label="Click Me" onClick={() => alert('Button Clicked!')} />
       <Button label="Submit" onClick={() => alert('Form Submitted!')} />
-      <Button label="Tharani" onClick={() => alert('Tharani go ahead')} /> */}
+      <Button label="Tharani" onClick={() => alert('Tharani go ahead')} /> 
       <Counter />
+      <Handling />
+      <ConditionalRendering/>*/}
+      <Toggle />
     </div>
   );
 }
