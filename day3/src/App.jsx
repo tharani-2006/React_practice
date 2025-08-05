@@ -9,6 +9,7 @@ import Counter from './Counter.jsx';
 import Handling from './Handling.jsx';
 import ConditionalRendering from './ConditionalRendering.jsx';
 import Toggle from './Toggle.jsx';
+import Map from './Map.jsx';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Handling />
       <ConditionalRendering/>*/}
       <Toggle />
+      <Map />
     </div>
   );
 }
