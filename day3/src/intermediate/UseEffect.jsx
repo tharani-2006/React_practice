@@ -4,10 +4,22 @@ import { useState,useEffect } from 'react';
 const UseEffect = () => {
 
     const [count, setCount] = useState(0);
+    //const [clearInterval, setClearInterval] = useState(null);
+
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         console.log("Timer running...");
+    //     }, 2000);
+
+    //     return () => {
+    //         clearInterval(interval); // cleanup
+    //         console.log("Timer cleared!");
+    //     };
+    // },[]);
 
     useEffect(() => {
-        console.log("useEffect called");
-    });
+        document.title = `Clicked ${count} times`;
+    }, [count]);
 
   return (
     <div>

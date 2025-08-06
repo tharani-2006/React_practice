@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import TimerApp from './intermediate/TimerApp';
 // import Demo from './fundamentals/Demo.jsx'; 
 // import Func_comp from './fundamentals/Func_comp.jsx';
 // import ProductDisplay from './ProductDisplay .jsx';
@@ -36,9 +37,10 @@ function App() {
       
       {/* <CounterApp />
       <TodoApp />
-      <CalculatorApp/> */}
-
-      <UseEffect />
+      <CalculatorApp/> 
+      <UseEffect />*/}
+      
+      <TimerApp />
 
     </div>
   );
