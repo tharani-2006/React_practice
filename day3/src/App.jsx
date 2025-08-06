@@ -12,6 +12,7 @@ import Toggle from './Toggle.jsx';
 import Map from './Map.jsx';
 import CounterApp from './CounterPrj.jsx';
 import TodoApp from './ToDo.jsx';
+import CalculatorApp from './Calculator.jsx';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       
       <CounterApp />
       <TodoApp />
+      <CalculatorApp/>
 
     </div>
   );
