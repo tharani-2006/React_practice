@@ -29,11 +29,11 @@ const Map = () => {
         </ol> */}
 
         {/* this is used when the id we have uniquely */ }
-        {/* {fruits.map(fruit =>
+        {fruits.map(fruit =>
             <div key={fruit.id}>
                 <h2>{fruit.name}</h2>
             </div>
-        )} */}
+        )}
 
         {/*  Reusable List Items with Components */ }
         <ul>

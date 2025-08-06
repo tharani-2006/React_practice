@@ -26,8 +26,8 @@ function App() {
       <Button label="Tharani" onClick={() => alert('Tharani go ahead')} /> 
       <Counter />
       <Handling />
-      <ConditionalRendering/>*/}
-      <Toggle />
+      <ConditionalRendering/>
+      <Toggle />*/}
       <Map />
     </div>
   );
