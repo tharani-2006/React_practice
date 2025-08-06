@@ -10,6 +10,8 @@ import Handling from './Handling.jsx';
 import ConditionalRendering from './ConditionalRendering.jsx';
 import Toggle from './Toggle.jsx';
 import Map from './Map.jsx';
+import CounterApp from './CounterPrj.jsx';
+import TodoApp from './ToDo.jsx';
 
 function App() {
   return (
@@ -27,8 +29,12 @@ function App() {
       <Counter />
       <Handling />
       <ConditionalRendering/>
-      <Toggle />*/}
-      <Map />
+      <Toggle />
+      <Map />*/}
+      
+      <CounterApp />
+      <TodoApp />
+
     </div>
   );
 }
