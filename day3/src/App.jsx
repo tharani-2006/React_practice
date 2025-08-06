@@ -1,18 +1,19 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Demo from './Demo.jsx'; 
-import Func_comp from './Func_comp.jsx';
-import ProductDisplay from './ProductDisplay .jsx';
-import Props_demo from './Props_demo.jsx';
-import Button from './Button.jsx';
-import Counter from './Counter.jsx';
-import Handling from './Handling.jsx';
-import ConditionalRendering from './ConditionalRendering.jsx';
-import Toggle from './Toggle.jsx';
-import Map from './Map.jsx';
-import CounterApp from './CounterPrj.jsx';
-import TodoApp from './ToDo.jsx';
-import CalculatorApp from './Calculator.jsx';
+// import Demo from './fundamentals/Demo.jsx'; 
+// import Func_comp from './fundamentals/Func_comp.jsx';
+// import ProductDisplay from './ProductDisplay .jsx';
+// import Props_demo from './Props_demo.jsx';
+// import Button from './fundamentals/Button.jsx';
+// import Counter from './fundamentals/Counter.jsx';
+// import Handling from './fundamentals/Handling.jsx';
+// import ConditionalRendering from './fundamentals/ConditionalRendering.jsx';
+// import Toggle from './Toggle.jsx';
+// import Map from './Map.jsx';
+// import CounterApp from './fundamentals/CounterPrj.jsx';
+// import TodoApp from './ToDo.jsx';
+// import CalculatorApp from './fundamentals/Calculator.jsx';
+import UseEffect from './intermediate/UseEffect';
 
 function App() {
   return (
@@ -33,9 +34,11 @@ function App() {
       <Toggle />
       <Map />*/}
       
-      <CounterApp />
+      {/* <CounterApp />
       <TodoApp />
-      <CalculatorApp/>
+      <CalculatorApp/> */}
+
+      <UseEffect />
 
     </div>
   );
