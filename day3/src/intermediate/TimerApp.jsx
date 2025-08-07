@@ -14,7 +14,7 @@ function TimerApp() {
     }
 
     return () => {
-      clearInterval(interval); // 🧹 Cleanup
+      clearInterval(interval); 
     };
   }, [running]); 
   return (
