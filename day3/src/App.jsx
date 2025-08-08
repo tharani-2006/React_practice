@@ -14,8 +14,10 @@ import TimerApp from './intermediate/TimerApp';
 // import CounterApp from './fundamentals/CounterPrj.jsx';
 // import TodoApp from './ToDo.jsx';
 // import CalculatorApp from './fundamentals/Calculator.jsx';
-import UseEffect from './intermediate/UseEffect';
-
+//import UseEffect from './intermediate/UseEffect';
+import LifeCycle from './intermediate/LifeCycle.jsx';
+import Home from './intermediate/Home.jsx';
+import {BrowserRouter , Routes,Route,Link} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
@@ -40,8 +42,22 @@ function App() {
       <CalculatorApp/> 
       <UseEffect />*/}
       
-      <TimerApp />
+      {/* <TimerApp /> */}
+      
+      <BrowserRouter>
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/lifecycle">Life Cycle</Link>
+          <Link to="/timer">Timer App</Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/lifecycle" element={<LifeCycle />} />
+          <Route path="/timer" element={<TimerApp />} />
+        </Routes>
+      </BrowserRouter>
 
+      
     </div>
   );
 }

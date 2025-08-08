@@ -37,7 +37,7 @@ const LifeCycle = () => {
 
   return (
     <div>
-    <h1>hello</h1>
+    <h1>hello Life cysle</h1>
       
     </div>
   )
