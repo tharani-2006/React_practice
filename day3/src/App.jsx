@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
-import TimerApp from './intermediate/TimerApp';
+//import TimerApp from './intermediate/TimerApp';
 // import Demo from './fundamentals/Demo.jsx'; 
 // import Func_comp from './fundamentals/Func_comp.jsx';
 // import ProductDisplay from './ProductDisplay .jsx';
@@ -15,9 +15,13 @@ import TimerApp from './intermediate/TimerApp';
 // import TodoApp from './ToDo.jsx';
 // import CalculatorApp from './fundamentals/Calculator.jsx';
 //import UseEffect from './intermediate/UseEffect';
-import LifeCycle from './intermediate/LifeCycle.jsx';
-import Home from './intermediate/Home.jsx';
-import {BrowserRouter , Routes,Route,Link} from 'react-router-dom';
+// import LifeCycle from './intermediate/LifeCycle.jsx';
+// import Home from './intermediate/Home.jsx';
+// import {BrowserRouter , Routes,Route,Link} from 'react-router-dom';
+
+import Form from './intermediate/Form.jsx';
+//import UncontrolledInputs from './intermediate/UncontrolledInputs.jsx';
+//import ControlledInputs from './intermediate/ControlledInputs.jsx';
 function App() {
   return (
     <div className="App">
@@ -43,7 +47,11 @@ function App() {
       <UseEffect />*/}
       
       {/* <TimerApp /> */}
-      <BrowserRouter>
+
+
+      {/* <UncontrolledInputs /> */}/
+      <Form />
+      {/* <BrowserRouter>
         <nav>
           <Link to="/">Home</Link>
           <Link to="/lifecycle">Life Cycle</Link>
@@ -54,7 +62,7 @@ function App() {
           <Route path="/lifecycle" element={<LifeCycle />} />
           <Route path="/timer" element={<TimerApp />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
 
       
     </div>
