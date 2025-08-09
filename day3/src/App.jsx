@@ -43,7 +43,6 @@ function App() {
       <UseEffect />*/}
       
       {/* <TimerApp /> */}
-      
       <BrowserRouter>
         <nav>
           <Link to="/">Home</Link>
