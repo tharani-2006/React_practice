@@ -1,6 +1,4 @@
-import React from 'react'
-import { useState } from 'react'
-import Parent from './Parent'
+
 const Child = ({setName}) => {
   return (
     <div>

@@ -19,7 +19,8 @@ import './App.css';
 // import Home from './intermediate/Home.jsx';
 // import {BrowserRouter , Routes,Route,Link} from 'react-router-dom';
 
-import Form from './intermediate/Form.jsx';
+// import Form from './intermediate/Form.jsx';
+import Parent from './intermediate/LiftingUp/Parent.jsx';
 //import UncontrolledInputs from './intermediate/UncontrolledInputs.jsx';
 //import ControlledInputs from './intermediate/ControlledInputs.jsx';
 function App() {
@@ -50,7 +51,7 @@ function App() {
 
 
       {/* <UncontrolledInputs /> */}/
-      <Form />
+      {/* <Form /> */}
       {/* <BrowserRouter>
         <nav>
           <Link to="/">Home</Link>
@@ -63,6 +64,7 @@ function App() {
           <Route path="/timer" element={<TimerApp />} />
         </Routes>
       </BrowserRouter> */}
+      <Parent />
 
       
     </div>
