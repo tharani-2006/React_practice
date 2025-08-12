@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import UseMemoExample from './intermediate/UseMeno.jsx';
 //import TimerApp from './intermediate/TimerApp';
 // import Demo from './fundamentals/Demo.jsx'; 
 // import Func_comp from './fundamentals/Func_comp.jsx';
@@ -25,6 +26,8 @@ import './App.css';
 // import Home from './intermediate/Blog/Home.jsx';
 // import { useState } from 'react';
 import UseRef from './intermediate/UseRef.jsx';
+import UseRefExample from './intermediate/UseRefExample.jsx';
+import UseMeno from './intermediate/UseMeno.jsx';
 // import Form from './intermediate/Form.jsx';
 //import Parent from './intermediate/LiftingUp/Parent.jsx';
 //import UncontrolledInputs from './intermediate/UncontrolledInputs.jsx';
@@ -39,7 +42,10 @@ function App() {
   return (
     <div className="App">
 
-      <UseRef/>
+      <UseMeno />
+
+      {/* <UseRef/>
+      <UseRefExample /> */}
 
 {/* 
       <Router>
