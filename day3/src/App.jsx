@@ -18,12 +18,13 @@ import './App.css';
 // import LifeCycle from './intermediate/LifeCycle.jsx';
 // import Home from './intermediate/Home.jsx';
 // import {BrowserRouter , Routes,Route,Link} from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import CreatePost from './intermediate/Blog/CreatePost.jsx';
-import PostDetail from './intermediate/Blog/PostDetail.jsx';
-import Navbar from './intermediate/Blog/components/Navbar.jsx';
-import Home from './intermediate/Blog/Home.jsx';
-import { useState } from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import CreatePost from './intermediate/Blog/CreatePost.jsx';
+// import PostDetail from './intermediate/Blog/PostDetail.jsx';
+// import Navbar from './intermediate/Blog/components/Navbar.jsx';
+// import Home from './intermediate/Blog/Home.jsx';
+// import { useState } from 'react';
+import UseRef from './intermediate/UseRef.jsx';
 // import Form from './intermediate/Form.jsx';
 //import Parent from './intermediate/LiftingUp/Parent.jsx';
 //import UncontrolledInputs from './intermediate/UncontrolledInputs.jsx';
@@ -31,14 +32,16 @@ import { useState } from 'react';
 function App() {
 
 
-    const [posts, setPosts] = useState([
-      { id: 1, title: "First Post", content: "This is my first blog post" },
-      { id: 2, title: "Second Post", content: "This is my second blog post" }
-  ]);
+  //   const [posts, setPosts] = useState([
+  //     { id: 1, title: "First Post", content: "This is my first blog post" },
+  //     { id: 2, title: "Second Post", content: "This is my second blog post" }
+  // ]);
   return (
     <div className="App">
 
+      <UseRef/>
 
+{/* 
       <Router>
       <Navbar />
       <Routes>
@@ -46,7 +49,7 @@ function App() {
         <Route path="/post/:id" element={<PostDetail posts={posts} />} />
         <Route path="/create" element={<CreatePost setPosts={setPosts} />} />
       </Routes>
-    </Router>
+    </Router> */}
       {/* <Demo />
       <Func_comp name= " thara" isLoggedIn="true"/>
       <ProductDisplay/>
