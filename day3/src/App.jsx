@@ -28,11 +28,15 @@ import './App.css';
 // import UseRef from './intermediate/UseRef.jsx';
 // import UseRefExample from './intermediate/UseRefExample.jsx';
 // import UseMeno from './intermediate/UseMeno.jsx';
-import UseCallbackExample from './intermediate/UseCallback.jsx';
+//import UseCallbackExample from './intermediate/UseCallback.jsx';
 // import Form from './intermediate/Form.jsx';
 //import Parent from './intermediate/LiftingUp/Parent.jsx';
 //import UncontrolledInputs from './intermediate/UncontrolledInputs.jsx';
 //import ControlledInputs from './intermediate/ControlledInputs.jsx';
+import { UserProvider } from './intermediate/useContext/CreateContext.jsx';
+import Profile from './intermediate/useContext/UpdateContext.jsx';
+import Home from './intermediate/useContext/UseContext.jsx';
+//import UseContext from './intermediate/useContext/UseContext.jsx';
 function App() {
 
 
@@ -42,15 +46,24 @@ function App() {
   // ]);
   return (
     <div className="App">
-      
-      <UseCallbackExample />
-          {/* <UseMeno /> */}
 
+      <UserProvider>
+      <Home />
+      <Profile />
+    </UserProvider>
+
+
+
+
+
+
+
+      
+      {/* <UseCallbackExample /> */}
+          {/* <UseMeno /> */}
       {/* <UseRef/>
       <UseRefExample /> */}
-
-{/* 
-      <Router>
+{/*  <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home posts={posts} />} />
