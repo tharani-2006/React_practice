@@ -33,10 +33,12 @@ import './App.css';
 //import Parent from './intermediate/LiftingUp/Parent.jsx';
 //import UncontrolledInputs from './intermediate/UncontrolledInputs.jsx';
 //import ControlledInputs from './intermediate/ControlledInputs.jsx';
-import { UserProvider } from './intermediate/useContext/CreateContext.jsx';
-import Profile from './intermediate/useContext/UpdateContext.jsx';
+// import { UserProvider } from './intermediate/useContext/CreateContext.jsx';
+// import Profile from './intermediate/useContext/UpdateContext.jsx';
 import Home from './intermediate/useContext/UseContext.jsx';
 //import UseContext from './intermediate/useContext/UseContext.jsx';
+import { ThemeProvider } from './intermediate/ContextAPI/CreateContext';
+import Theme from './intermediate/ContextAPI/Theme.jsx';
 function App() {
 
 
@@ -47,10 +49,9 @@ function App() {
   return (
     <div className="App">
 
-      <UserProvider>
-      <Home />
-      <Profile />
-    </UserProvider>
+    <ThemeProvider>
+      <Theme />
+    </ThemeProvider>
 
 
 
