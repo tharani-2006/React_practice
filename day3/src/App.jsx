@@ -35,10 +35,12 @@ import './App.css';
 //import ControlledInputs from './intermediate/ControlledInputs.jsx';
 // import { UserProvider } from './intermediate/useContext/CreateContext.jsx';
 // import Profile from './intermediate/useContext/UpdateContext.jsx';
-import Home from './intermediate/useContext/UseContext.jsx';
-//import UseContext from './intermediate/useContext/UseContext.jsx';
-import { ThemeProvider } from './intermediate/ContextAPI/CreateContext';
-import Theme from './intermediate/ContextAPI/Theme.jsx';
+// import Home from './intermediate/useContext/UseContext.jsx';
+// //import UseContext from './intermediate/useContext/UseContext.jsx';
+// import { ThemeProvider } from './intermediate/ContextAPI/CreateContext';
+// import Theme from './intermediate/ContextAPI/Theme.jsx';
+import Fetch from './advanced/Fetch.jsx';
+import FetchPost from './advanced/FetchPost.jsx';
 function App() {
 
 
@@ -48,10 +50,14 @@ function App() {
   // ]);
   return (
     <div className="App">
+      <h1>users</h1>
+      
+      <FetchPost />
+      <Fetch />
 
-    <ThemeProvider>
+    {/* <ThemeProvider>
       <Theme />
-    </ThemeProvider>
+    </ThemeProvider> */}
 
 
 
