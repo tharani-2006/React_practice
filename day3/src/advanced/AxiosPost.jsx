@@ -15,4 +15,6 @@ function AddPost() {
   return <button onClick={handleAddPost}>Add Post</button>;
 }
 
+
+
 export default AddPost;
